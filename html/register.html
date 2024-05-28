@@ -6,51 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/register.css">
   <title>TechQuest</title>
 </head>
 
 <body>
+  <div class ="herobg">
   <nav class="navbarhome" id="actnav">
-    <a href="../index.html"><img class="logonav" src="../img/Example.png" alt=""></a>
+    <a href="../index.html"><img class="logonav" src="../img/logo.png" alt=""></a>
     <a href="../index.html" class="navhomelink">Inicio</a>
     <a href="./about.html" class="navhomelink">Sobre</a>
     <a href="./faq.html" class="navhomelink">FAQ</a>
   </nav>
   <main class="container">
-      <form class="formulario">
+      <form class="formulario" action="../php/login-register/register.php" method="post">
         <h3>Embarque nessa aventura</h3>
-        <div class="form-group">
-          <label for="email">E-mail Institucional:</label>
-          <div class="input-group">
-            <input id="email" name="email" placeholder="Digite o Seu E-mail Institucional" type="text"
+        <br>
+        <div class="email">
+          <div class="input-email">
+            <input id="email" name="email" placeholder="Digite o seu E-mail Institucional" type="text"
               required="required" class="form-control">
           </div>
         </div>
-        <div class="form-group">
-          <label for="password">Senha:</label>
-          <div class="input-group">
-            <input type="password" name="password" placeholder="Digite a Sua Senha" type="text" class="form-control"
+        <br>
+        <div class="senha">
+          <div class="input-senha">
+            <input type="password" name="password" placeholder="Digite a sua Senha" type="text" class="form-control"
               required="required">
           </div>
-        </div>
-        <div class="form-group">
-          <label for="text">Repita a Senha:</label>
-          <div class="input-group">
+        </div>  
+        <br>
+        <div class="repita-senha">
+          <div class="input-repita-senha">
             </div>
-            <input type="password" name="text" placeholder="Repita a Sua Senha" type="text" class="form-control"
+            <input type="password" name="passwordconfirm" placeholder="Repita a sua Senha" type="text" class="form-control"
               required="required">
           </div>
+          <div class="li-e-concordo">
+            <input type="checkbox" name="termoss" id="termoss"><p> Li e concordo com os <a href="termos">termos de uso</a>.</p>
+          </div>
+          <div class="form-nao-conta">
+            <a href="./login.html">Possui uma conta?</a>
+          </div>
+          <div class ="registrar">
+          <button name="submit" type="submit" class="btn btn-primary">Registrar-se</button>
+        </form> 
+    </main>
+    <script src="../bootstrap/js/bootstrap.js"></script>  
         </div>
-        <div>
-          <input type="checkbox" name="termoss" id="termoss"><p> Li e concordo com os <a href="#">termos de uso</a>.</p>
-        </div>
-        <div class="form-nao-conta">
-          <a href="./login.html">Possui uma conta?</a>
-        </div>
-        <button name="submit" type="submit" class="btn btn-primary">Registrar-se</button>
-      </form>
-  </main>
-  <script src="../bootstrap/js/bootstrap.js"></script>
+
 </body>
 
 </html>
