@@ -429,3 +429,22 @@ body > div.wrapper > div > section.content > form > div > div.box-body > div > d
     justify-content: center;
     margin-top: 5px;
 }
+body > div.wrapper > div > section.content > div.box > div.box-footer > a:nth-child(1) > button{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+#publicationDateControls > div > span{
+    color: #333;
+
+}
+body > div.wrapper > div > div > section.content > div > div.box-body > div.list-group > a > h4{
+    color: #fff;
+}
+body > div.wrapper > div > div > section.content > div > div.box-body > div.list-group > a:hover > h4{
+    color: #333;
+}
+#badges > tbody > tr.even:hover{
+    background-color: #4caf50;
+    color: #fff;
+}

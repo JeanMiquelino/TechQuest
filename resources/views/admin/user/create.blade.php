@@ -8,7 +8,7 @@
 {{-- Content Header --}}
 @section('header')
     {{ __('admin/user/title.create_a_new_user') }}
-    <small>add a new user</small>
+    <small>Adicionar novo usuário</small>
 @endsection
 
 {{-- Breadcrumbs --}}
