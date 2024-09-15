@@ -3,6 +3,7 @@
 Bem-vindo ao tutorial de instalação do TechQuest, uma plataforma de gamificação baseada em Laravel. Este guia irá te ajudar a instalar e configurar o TechQuest em um ambiente de desenvolvimento ou produção.
 ## Vídeos de Apoio
 [Tutorial de Instalação da Plataforma](https://www.youtube.com/watch?v=k839mbRKHO8&ab_channel=JeanMiquelino)
+
 [Tour pela Plataforma](https://www.youtube.com/watch?v=us8OV54l8h4&ab_channel=JeanMiquelino)
 ## Funcionalidades
 
