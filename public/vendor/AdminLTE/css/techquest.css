@@ -1,0 +1,440 @@
+
+.navbar{
+    background-color: #1b5e20;
+}
+.main-header a{
+    color: #fff;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p{
+    color: #333;
+}
+.content-wrapper{
+    background-color: #333;
+}
+.main-footer{
+    background-color: #1b5e20;
+    color: #fff;
+}
+.box{
+    background-color: #424242;
+    color: #fff;
+}
+.box-header{
+    background-color: #1b5e20;
+    color: #fff;
+}
+table tr:hover {
+    background-color: #4caf50; /* Muda o fundo para branco */
+    color: #fff; /* Isso vai mudar o texto para cinza escuro */
+}
+table tr a {
+   color: #4caf50;
+}
+
+@media (max-width: 991px) {
+    .main-header a{
+        color: #fff;
+    }
+    .main-header a:hover span{
+        color: #333;
+    }
+    .main-header a:focus span{
+        color: #333;
+    }
+    .main-header span{
+        color: #fff;
+    }
+    .fa{
+        color: #fff;
+    }
+    a:hover .fa{
+        color: #333;
+    }
+    .content-header h1{
+        color: #fff;
+    }
+.content-header>.breadcrumb{
+    background-color: #1b5e20;
+
+}
+.breadcrumb>.active{
+    color: #fff;
+}
+.btn-default{
+    background-color: #1b5e20;
+    border: none;
+    color: #fff;
+}
+.btn-default:hover{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+}
+.input-group .input-group-addon{
+    background-color: #1b5e20;
+    color: #fff;
+}
+.skin-blue .main-header .navbar{
+    background-color: #1b5e20;
+}
+.skin-blue .main-header .logo{
+    background-color: #1b5e20;
+    color: #fff;
+}
+.skin-blue .main-header .logo:hover{
+    background-color: #fff;
+    color: #333;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+    background-color: #fff;
+    color: #333;
+}
+body > div.wrapper > header > nav > div > ul > li:hover{
+    background-color: #fff;
+}
+body > div.wrapper > header > nav > div > ul > li:hover span{
+    color: #333;
+}
+.skin-blue .main-header li.user-header{
+    background-color: #1b5e20;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p{
+    color: #fff;
+}
+body > div.wrapper > header > nav > div > div.navbar-custom-menu > ul > li.dropdown.user.user-menu.open > ul > li.user-header{
+    background-color: #1b5e20;
+}
+body > div.wrapper > header > nav > div > div.navbar-custom-menu > ul > li.dropdown.user.user-menu.open > ul > li.user-body{
+    display: none;
+}
+body > div.wrapper > header > nav > div > div.navbar-custom-menu > ul > li.dropdown.user.user-menu.open > ul > li.user-footer{
+    background-color: #333;
+}
+body > div.wrapper > header > nav > div > div.navbar-custom-menu > ul > li.dropdown.user.user-menu.open > ul > li.user-footer > div.pull-left > a{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+body > div.wrapper > header > nav > div > div.navbar-custom-menu > ul > li.dropdown.user.user-menu.open > ul > li.user-footer > div.pull-right > form > input.btn.btn-default.btn-flat{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+body > div.wrapper > header > nav > div > div.navbar-header > button:hover{
+    background-color: #fff;
+}
+body > div.wrapper > header > nav > div > div.navbar-header > button:hover .fa{
+    color: #333;
+}
+.panel-default>.panel-heading{
+    background-color: #1b5e20;
+    color: #fff;
+}
+.panel-default>.panel-heading a:hover{
+    color: #4caf50;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{
+    background-color: #424242;
+}
+.skin-blue .sidebar-menu>li.active>a{
+    border-left-color: #4caf50;
+}
+body > div.wrapper > aside > section > ul > li:hover{
+    background-color: #4caf50;
+}
+body > div.wrapper > aside > section > ul > li:hover > a > i{
+    color: #4caf50;
+}
+.skin-blue .sidebar-menu>li.header{
+    background-color: #4caf50;
+    color: #fff;
+}
+.table>tbody>tr.warning>td, .table>tbody>tr.warning>th, .table>tbody>tr>td.warning, .table>tbody>tr>th.warning, .table>tfoot>tr.warning>td, .table>tfoot>tr.warning>th, .table>tfoot>tr>td.warning, .table>tfoot>tr>th.warning, .table>thead>tr.warning>td, .table>thead>tr.warning>th, .table>thead>tr>td.warning, .table>thead>tr>th.warning{
+    background-color: #4caf50;
+    color: #fff;
+    
+}
+.table-striped>tbody>tr:nth-of-type(odd){
+    background-color: #333;
+    color: #fff;
+}
+.table-striped>tbody>tr:nth-of-type(odd):hover{
+    background-color: #4caf50;
+    color: #fff;
+}
+.btn-primary{
+    background-color: #1b5e20;
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover{
+    background-color: #1b5e20;
+    border: none;
+}
+.btn-primary:hover i{
+    color: #fff;
+}
+.breadcrumb>.active{
+    color: #fff;
+}
+.content-header>.breadcrumb>li>a{
+    color: #fff;
+}
+.content-header h1{
+    color: #fff;
+}
+.content-header h1 small{
+    color: #fff;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+.btn-info{
+    background-color: #1b5e20;
+    border: none;
+    color: #fff;
+}
+.btn-info:hover{
+    background-color: #1b5e20;
+    border: none;
+}
+.btn-success{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+.box-footer{
+    background-color: #1b5e20;
+    color: #fff;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+    background-color: #4caf50;
+    color: #fff;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #4caf50;
+    color: #fff;
+}
+.text-muted{
+    color: #fff;
+}
+legend{
+    color: #fff;
+}
+.btn-default{
+    background-color: #1b5e20;
+    border: none;
+    color: #fff;
+}
+.bg-light-blue, .label-primary, .modal-primary .modal-body{
+    background-color: #1b5e20;
+    color: #fff;
+}
+#enableVisibilityControls{
+    color: #4caf50; 
+}
+#formEditQuestion > div > div.col-md-4 > div:nth-child(1) > div.box-footer > a{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+.btn-link{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+.btn-link:hover{
+    background-color: #4caf50 !important;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+.list-group-item{
+    background-color: #333;
+    color: #fff;
+}
+body > div.wrapper > div > section.content > div.row > div.col-md-8 > div > div.box-body > dl > dd:nth-child(4) > ul > li.list-group-item.bg-gray.text-center > p{
+    color: #333;
+}
+body > div.wrapper > div > section.content > div.row > div.col-md-8 > div > div.box-footer > a.btn.btn-primary{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+.bg-light-blue, .label-primary, .modal-primary .modal-body{
+    background-color: #1b5e20 !important;
+    color: #fff !important;
+}
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer .btn-default{
+    background-color: #1b5e20;
+    color: #fff;
+}
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer .btn-default:hover{
+    background-color: #4caf50;
+    color: #fff;
+}
+body > div.wrapper > header > nav > div > ul > li > ul > li.user-body{
+    display: none;
+}
+body > div.wrapper > header > nav > div > ul > li > ul > li.user-footer{
+    background-color: #333;
+}
+body > div.wrapper > div > div > section.content > div > div.col-md-4 > div.box.box-widget.widget-user > div.widget-user-header.bg-aqua-active{
+    background-color: #4caf50 !important;
+}
+.box.box-primary {
+    border-top-color: #fff;
+}
+body > div.wrapper > div > div > section.content > div > div.col-md-8 > div{
+    background-color: #424242;
+}
+.nav-tabs-custom>.tab-content{
+    background-color: #424242;
+}
+#overview > h3{
+    color: #fff;
+}
+#overview > div > div > p{
+    color: #fff;
+}
+body > div.wrapper > div > div > section.content > div > div.col-md-8 > div > ul > li{
+
+    color: #fff;
+}
+body > div.wrapper > div > div > section.content > div > div.col-md-8 > div > ul > li > a{
+    color: #fff;
+}
+body > div.wrapper > div > div > section.content > div > div.col-md-8 > div > ul{
+    background-color: #1b5e20;
+}
+.nav-tabs-custom>.nav-tabs>li.active>a, .nav-tabs-custom>.nav-tabs>li.active:hover>a{
+    background-color: #1b5e20;
+    color: #fff;
+}
+.nav-tabs-custom>.nav-tabs>li.active{
+    border-top: #4caf50 solid 2px;
+}
+body > div.wrapper > div > div > section.content > div > div > form > div:nth-child(3) > div:nth-child(2) > div > div > div > p{
+    background-color: #4caf50;
+    color: #fff;
+}
+.btn-default{
+    background-color: #1b5e20;
+    border: none;
+    color: #fff;
+}
+.btn-default:hover{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+.panel{
+    background-color: #424242;
+    border: none;
+}
+body > div.wrapper > div > div > section.content > div > div > form > div > label{
+    color: #fff;
+}
+#btnSubmit{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+.bg-aqua, .callout.callout-info, .alert-info, .label-info, .modal-info .modal-body{
+    background-color: #1b5e20 !important;
+    color: #fff !important;
+    border-color: #4caf50;
+}
+.bg-gray{
+    background-color: #333 !important;
+    color: #fff !important;
+}
+#ranking{
+    color: #fff;
+}
+#ranking tr:hover{
+    color: #333
+}
+.login-page, .register-page{
+    background-color: #333;
+}
+body > div.login-box > div.login-logo > strong{
+    color: #fff;
+}
+body > div.login-box > div.login-box-body > p.text-center{
+    color: #fff;
+}
+body > div.login-box > div.login-box-body > p.text-center > a{
+    color: #4caf50;
+}
+body > div.login-box > div.login-box-body > p.login-box-msg{
+    color: #fff;
+}
+body > div.login-box > div.login-box-body{
+    background-color: #424242;
+}
+#email-login > form > p > a{
+    color: #4caf50;
+}
+#email-login > form > div.checkbox.icheck > label{
+    color: #fff;
+}
+body > div.login-box > div.login-box-body > form > div.checkbox > label > a{
+    color: #4caf50;
+}
+body > div.login-box > div.login-box-body > form > div.checkbox > label{
+    color: #fff;
+}
+.logo-login{
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+body > div.login-box > div.login-box-body > form:nth-child(2){
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 5px;
+}
+body > div.login-box > div.login-box-body > form:nth-child(3){
+    margin: auto;
+    width: 50%;
+    display: flex;
+}
+body > div.login-box > div.login-box-body > form:nth-child(3) > input.btn.btn-default.btn-flat{
+    margin: auto;
+}
+body > div.wrapper > div > div > section.content > div > div.col-md-4 > div.box.box-primary > div.box-body > table:nth-child(3) > tbody > tr:hover{
+    color: #333;
+}
+.modal-content{
+    background-color: #424242;
+    color: #fff;
+}
+body > div.wrapper > div > section.content > div.box.box-solid > div.box-footer > a:nth-child(1) > button{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+#formCreateQuestion > div > div.col-md-4 > div > div.box-footer > a{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+#formCreateQuestion > div > div.col-md-4 > div > div.box-footer > a:hover > i{
+    color: #fff;
+}
+#enablePublicationDateControls{
+    color: #4caf50;
+}
+.btn-success:hover{
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+}
+body > div.wrapper > div > section.content > form > div > div.box-body > div > div:nth-child(2) > div > div.panel-body{
+    background-color:#333;
+}

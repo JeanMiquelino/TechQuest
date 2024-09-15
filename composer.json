@@ -1,0 +1,103 @@
+{
+  "name": "pacoorozco/gamify-laravel",
+  "description": "Gamification platform implementing a serious game mechanic.",
+  "keywords": [
+    "gamification",
+    "GoW",
+    "gamify",
+    "game platform",
+    "serious games",
+    "laravel"
+  ],
+  "homepage": "https://github.com/pacoorozco/gamify-laravel",
+  "license": "GPL-3.0-or-later",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Paco Orozco",
+      "email": "paco@pacorozco.info",
+      "homepage": "https://pacoorozco.info",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pacoorozco/gamify-laravel/issues"
+  },
+  "require": {
+    "php": "^8.2.0",
+    "ext-mysqlnd": "*",
+    "bensampo/laravel-enum": "^6.7.0",
+    "coderflexx/laravel-presenter": "^2.0.0",
+    "cviebrock/eloquent-sluggable": "^10.0.0",
+    "cviebrock/eloquent-taggable": "^10.0.0",
+    "doctrine/dbal": "^3.7.2",
+    "fakerphp/faker": "^1.23.0",
+    "hashids/hashids": "^5.0.2",
+    "laravel/framework": "^10.37.1",
+    "laravel/socialite": "^5.11.0",
+    "laravelcollective/html": "^6.4.1",
+    "predis/predis": "^2.2.2",
+    "richan-fongdasen/eloquent-blameable": "^1.9.0",
+    "socialiteproviders/okta": "^4.4.0",
+    "spatie/laravel-medialibrary": "^11.0.3",
+    "yajra/laravel-datatables-oracle": "^10.11.2"
+  },
+  "require-dev": {
+    "barryvdh/laravel-debugbar": "^3.9.2",
+    "brianium/paratest": "^7.3.1",
+    "larastan/larastan": "^2.7.0",
+    "laravel/breeze": "^1.26.3",
+    "laravel/pint": "^1.13.7",
+    "laravel/sail": "^1.26.3",
+    "mockery/mockery": "^1.6.7",
+    "nunomaduro/collision": "^7.10.0",
+    "phpunit/phpunit": "^10.4.0",
+    "spatie/laravel-ignition": "^2.3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gamify\\": "app/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": []
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "post-autoload-dump": [
+      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+      "@php artisan package:discover --ansi"
+    ],
+    "test": [
+      "php artisan migrate --env=testing",
+      "php artisan test --parallel --runner WrapperRunner"
+    ],
+    "build": [
+      "@composer archive --format=zip --dir=dist"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "archive": {
+    "exclude": [
+      "/utils",
+      "/.*",
+      "!/.env.example",
+      "webpack.mix.js",
+      "package.json"
+    ]
+  }
+}
