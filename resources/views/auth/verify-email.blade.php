@@ -16,7 +16,7 @@
                value="{{ __('auth.email_verification_action') }}">
     </form>
 
-    <form method="post" action="{{ route('logout') }}">
+    <form method="post" action="{{ route('logout') }}" id="login-logout-email">
         @csrf
         <input class="btn btn-default btn-flat" type="submit" value="{{ __('auth.logout') }}">
     </form>

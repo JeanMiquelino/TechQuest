@@ -393,20 +393,6 @@ body > div.login-box > div.login-box-body > form > div.checkbox > label{
     height: 64px;
     width: 64px;
 }
-body > div.login-box > div.login-box-body > form:nth-child(2){
-    width: 50%;
-    display: flex;
-    margin: auto;
-    margin-bottom: 5px;
-}
-body > div.login-box > div.login-box-body > form:nth-child(3){
-    margin: auto;
-    width: 50%;
-    display: flex;
-}
-body > div.login-box > div.login-box-body > form:nth-child(3) > input.btn.btn-default.btn-flat{
-    margin: auto;
-}
 body > div.wrapper > div > div > section.content > div > div.col-md-4 > div.box.box-primary > div.box-body > table:nth-child(3) > tbody > tr:hover{
     color: #333;
 }
@@ -437,4 +423,9 @@ body > div.wrapper > div > section.content > div.box.box-solid > div.box-footer 
 }
 body > div.wrapper > div > section.content > form > div > div.box-body > div > div:nth-child(2) > div > div.panel-body{
     background-color:#333;
+}
+#login-logout-email{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
